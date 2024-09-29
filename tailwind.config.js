@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         // font untuk judul make font-serif
-        playfair: ["Playfair Display", serif], //font untuk body
+        playfair: ["Playfair Display", "sans-serif"], //font untuk body
       },
     },
   },
