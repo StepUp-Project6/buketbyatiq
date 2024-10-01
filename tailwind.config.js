@@ -6,7 +6,12 @@ export default {
       fontFamily: {
         // font untuk judul make font-serif
         playfair: ["Playfair Display", "sans-serif"], //font untuk body
+        timesNewRoman: ["Times New Roman", "serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
+      colors: {
+        primary: "#193446",
+      }
     },
   },
   plugins: [],
