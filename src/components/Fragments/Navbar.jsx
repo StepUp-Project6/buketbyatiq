@@ -27,7 +27,7 @@ const menu = [
   },
 ];
 
-const Navbar = () => {
+const Navbar = ({ classname }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const toggleMenu = () => {
@@ -36,8 +36,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="top-0 relative">
-        <div className="flex pt-8 md:px-[82px] justify-between items-center lg:px-[134px] w-full ">
+      <nav className={`top-0 relative ${classname}`}>
+        <div className="flex pt-8 md:px-[20px] justify-between items-center lg:px-[134px] w-full ">
           <div className="flex flex-row items-center">
             <IoMenuOutline
               className="h-8 w-[71px] lg:hidden"
@@ -71,7 +71,6 @@ const Navbar = () => {
               <MdOutlineShoppingCart className=" md:h-6 md:w-6 sm:hidden md:block mt-4" />
             </a>
           </div>
-          
         </div>
         {isMenuOpen && (
           <div className="fixed inset-0 z-40" onClick={toggleMenu}></div>
@@ -80,6 +79,10 @@ const Navbar = () => {
       </nav>
     </>
   );
+};
+
+Navbar.propTypes = {
+  classname: PropTypes.string,
 };
 
 const SideBar = ({ isMenuOpen }) => {
@@ -91,7 +94,9 @@ const SideBar = ({ isMenuOpen }) => {
     >
       <div className="flex flex-col pt-5 px-4">
         <Logo />
-        <h3 className="text-sm font-bold text-[#8391A1] mb-5 mt-5">MENU UTAMA</h3>
+        <h3 className="text-sm font-bold text-[#8391A1] mb-5 mt-5 font-playfair tracking-wider">
+          MENU UTAMA
+        </h3>
         <div className="flex flex-col gap-5">
           {menu.map((item) => (
             <Link
@@ -100,7 +105,7 @@ const SideBar = ({ isMenuOpen }) => {
               className="flex items-center py-3"
             >
               <img src={item.icon} alt="" className="px-5" />
-              <p className="text-base font-semibold">{item.name}</p>
+              <p className="text-base font-semibold font-timesNewRoman tracking-wide">{item.name}</p>
             </Link>
           ))}
         </div>
