@@ -37,7 +37,7 @@ const Navbar = ({ classname }) => {
   return (
     <>
       <nav className={`top-0 relative ${classname}`}>
-        <div className="flex pt-8 md:px-[20px] justify-between items-center lg:px-[134px] w-full ">
+        <div className="flex pt-8 md:px-[20px] justify-between items-center lg:px-16 xl:px-24 w-full ">
           <div className="flex flex-row items-center">
             <IoMenuOutline
               className="h-8 w-[71px] lg:hidden"
