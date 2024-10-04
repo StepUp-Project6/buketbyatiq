@@ -11,7 +11,10 @@ export default {
       },
       colors: {
         primary: "#193446",
-      }
+      },
+      screens: {
+        hp375: "375px",
+      },
     },
   },
   plugins: [],
