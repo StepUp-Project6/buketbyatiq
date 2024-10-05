@@ -4,6 +4,7 @@ import DocumentationSection from "../components/Sections/Home/DocumentationSecti
 import HeadSection from "../components/Sections/Home/HeadSection";
 import ProductSection from "../components/Sections/Home/ProductSection";
 import TestimoniSection from "../components/Sections/Home/TestimoniSection";
+import Footer from "../components/Fragments/Footer";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ProductSection></ProductSection>
       <DocumentationSection />
       <TestimoniSection></TestimoniSection>
+      <Footer></Footer>
     </>
   );
 };
