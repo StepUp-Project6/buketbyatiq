@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <Navbar classname={`bg-[#DBD1BC]/20`} />
-      <main id="main" className="relative min-h-screen">
+      <main id="main" className="relative min-h-screen md:pb-20 lg:pb-0">
         <FirstSection />
         <DocumentationSection />
         <FixedButtonWhatsapp /> 
