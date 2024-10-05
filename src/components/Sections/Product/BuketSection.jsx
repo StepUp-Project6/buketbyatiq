@@ -26,10 +26,7 @@ const BuketSection = () => {
   return (
     <SectionLayout classname={`flex flex-col justify-center gap-8 lg:gap-16 xl:gap-20`}>
       <SectionTitle title={"Produk Buket Byatiq"} />
-       <div className="flex flex-col gap-10 md:gap-16 xl:gap-20">
-        <ProductLayout products={products.slice(0, productCount)} />
-      </div>
-      <div className="border border-black w-full">
+      <div className=" ">
         <Pagination data={products} CardComponent={CardProduct} />
       </div>
     </SectionLayout>
