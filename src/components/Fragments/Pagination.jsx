@@ -53,8 +53,8 @@ const Pagination = ({ data, CardComponent }) => {
               onClick={() => handleClick(pageNumber)}
               className={`px-3 py-1 ${
                 currentPage === pageNumber
-                  ? "bg-yellow-500 text-white"
-                  : "bg-white text-yellow-500"
+                  ? "bg-black text-white"
+                  : "bg-white text-black"
               } transition duration-500 ease-in-out 
                 ${index === 0 ? "rounded-l-md px-[14px]" : ""}  // Border-radius untuk tombol pertama
                 ${index === totalPages - 1 ? "rounded-r-md" : ""}  // Border-radius untuk tombol terakhir
