@@ -45,7 +45,7 @@ const Navbar = ({ classname }) => {
             />
             <Logo />
           </div>
-          <a href="https://id.shp.ee/BEfJANp" target="_blank">
+          <a href="https://id.shp.ee/aprunkd" target="_blank">
             <MdOutlineShoppingCart className="h-5 w-5 me-5 lg:hidden" />
           </a>
           <div className="hidden lg:flex">
@@ -67,7 +67,7 @@ const Navbar = ({ classname }) => {
                 </Link>
               ))}
             </div>
-            <a href="https://id.shp.ee/BEfJANp" target="_blank">
+            <a href="https://id.shp.ee/aprunkd" target="_blank">
               <MdOutlineShoppingCart className=" md:h-6 md:w-6 sm:hidden md:block mt-4" />
             </a>
           </div>
@@ -88,7 +88,7 @@ Navbar.propTypes = {
 const SideBar = ({ isMenuOpen }) => {
   return (
     <div
-      className={`w-[292px] h-screen fixed top-0 z-50 bg-white border-r-2 transition-transform duration-300 ${
+      className={`w-[292px] h-full fixed top-0 z-50 bg-white border-r-2 transition-transform duration-300 ${
         isMenuOpen ? "translate-x-0" : "-translate-x-full"
       }`}
     >
