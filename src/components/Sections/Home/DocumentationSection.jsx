@@ -3,9 +3,9 @@ import SectionLayout from "../../Layouts/SectionLayout"
 
 const DocumentationSection = () => {
   return (
-    <SectionLayout classname="mb-24">
+    <SectionLayout classname="mb-10 lg:mb-24">
       <SectionTitle title={"Dokumentasi"} />
-      <div className="flex flex-col lg:flex-row justify-center items-center  gap-10 md:gap-52 lg:gap-10 pt-10 lg:pt-20">
+      <div className="flex flex-col lg:flex-row justify-center items-center lg:justify-between  gap-10 md:gap-52 lg:gap-10 pt-10 lg:pt-20">
         <div className="w-[279px] h-[209px] md:w-[427px] md:h-[319px] lg:w-[369px] lg:h-[278px] xl:w-[502px] xl:min-h-[378px] flex flex-col justify-center items-center gap-2.5">
             <img src="images/dokumentasi/dok1.png" alt="" className="object-fill"/>
             <p className="font-bold font-playfair text-xs md:text-lg xl:text-xl">Konsultasi Meja Bundar</p>

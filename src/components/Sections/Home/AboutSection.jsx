@@ -7,7 +7,7 @@ const AboutSection = () => {
     <>
       <SectionLayout classname={`flex flex-col justify-center md:flex-row-reverse`}>
         <div className="flex flex-col md:pl-10">
-          <SectionTitle title={"Tentang Kami"} />
+          <SectionTitle title={"Tentang Produk"} />
           <Paragraph
             content={
               "merupakan sebuah bisnis yang bergerak di bidang pembuatan buket yang unik dan eksklusif untuk berbagai acara perayaan seperti ulang tahun, wisuda, dan lain-lain. Buket Byatiq menawarkan berbagai jenis buket yang dapat disesuaikan dengan tema dan selera pelanggan, mulai dari buket polaroid yang Instagram-worthy, buket topper yang elegan, buket coklat yang lezat, buket bunga yang segar, buket boneka yang imut, hingga buket bunga yang eksklusif."
