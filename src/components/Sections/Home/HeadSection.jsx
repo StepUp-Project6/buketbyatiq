@@ -20,7 +20,7 @@ const HeadSection = () => {
           <div className="mb-4 lg:pt-8 flex lg:justify-center lg:items-center">
             <RedirectButton
               name={"Beli Produk"}
-              to={"/produk"}
+              to={"/produk#product"}
               classname={`px-8 py-3 lg:px-9 lg:py-4 text-xs md:text-sm lg:text-lg font-bold font-timesNewRoman tracking-wider bg-primary text-white rounded-[10px]`}
             />
           </div>
