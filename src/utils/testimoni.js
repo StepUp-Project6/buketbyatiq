@@ -15,7 +15,7 @@ export const testimoni = [
     },
     {
         id: 3,
-        name: "Fatima2",
+        name: "Risa Mutiara",
         testimoni: "Saya memesan buket polaroid dan kupu-kupu. Lucu banget, saya sangat suka",
         src: "svg/profile.svg",
         date: "06/10/2024",
