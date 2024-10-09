@@ -59,5 +59,10 @@ export const products = [
       name: "Gantungan Kunci",
       src: "images/product/buket12.png",
     },
+    {
+      id: 13,
+      name: "Mahar Pernikahan",
+      src: "images/product/buket13.png",
+    },
   ];
   
