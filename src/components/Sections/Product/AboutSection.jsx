@@ -16,7 +16,7 @@ const AboutSection = () => {
           />
         </div>
         <div className="flex items-center md:min-w-[232px] md:h-[212px] lg:min-w-[337px] lg:h-[302px] xl:min-w-[428px] xl:h-[377px]">
-          <img src="images/home/image-2.png" className="object-fill w-full h-full" alt="" />
+          <img src="images/home/image-1.png" className="object-fill w-full h-full" alt="" />
         </div>
       </SectionLayout>
     </>
